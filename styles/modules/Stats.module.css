@@ -1,0 +1,18 @@
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.text {
+    font-size: 35px;
+    letter-spacing: .15em;
+}
+
+@media (min-width: 768px) {
+    .main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}

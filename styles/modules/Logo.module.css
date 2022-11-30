@@ -1,0 +1,16 @@
+.logo {
+    letter-spacing: .5em;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.image {
+    width: 100px;
+    filter: invert(var(--invert))
+}
+
+@media (min-width: 768px) {
+    .logo {
+        font-size: 35px;
+    }
+}

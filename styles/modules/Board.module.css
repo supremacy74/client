@@ -1,0 +1,44 @@
+.layout {
+    width: 100%;
+    position: relative;
+    font-size: 25px;
+    letter-spacing: .05rem;
+}
+
+.template {
+    margin-bottom: 150px;
+}
+
+.area {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: none;
+    color: var(--accent);
+    transition: --transition;
+    z-index: 5;
+}
+
+.blur {
+    position: fixed;
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--primary);
+    backdrop-filter: blur(5px);
+}
+
+.text {
+    color: var(--transparent-optional);
+    z-index: 5;
+    position: relative;
+}
+
+.enlarged {
+    font-size: 35px;
+}
+
+.wrong {
+    color: var(--wrong);
+}

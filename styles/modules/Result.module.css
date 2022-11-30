@@ -1,0 +1,31 @@
+.result {
+    padding: 25px 0;
+    width: 100%;
+    backdrop-filter: blur(15px);
+    background: var(--transparent-secondary-95);
+    min-height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 55;
+}
+
+.result > .container {
+    position: relative;
+}
+
+.heading {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
